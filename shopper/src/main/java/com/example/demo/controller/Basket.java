@@ -42,4 +42,10 @@ public class Basket {
         }
         return false;
     }
+
+    public Map<Item, Integer> getOrder() {
+        return order;
+    }
+
+
 }
